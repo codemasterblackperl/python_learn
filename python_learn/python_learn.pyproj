@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>36b39ed8-9aa9-4b11-a4af-8c1ed883fdfc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Basics\string_format.py</StartupFile>
+    <StartupFile>Basics\var.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Basics\string_format.py" />
+    <Compile Include="Basics\var.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Basics\" />
