@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>36b39ed8-9aa9-4b11-a4af-8c1ed883fdfc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Basics\var.py</StartupFile>
+    <StartupFile>Basics\operators_expressions.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Basics\operators_expressions.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Basics\string_format.py" />
     <Compile Include="Basics\var.py">
       <SubType>Code</SubType>
