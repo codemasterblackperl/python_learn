@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>36b39ed8-9aa9-4b11-a4af-8c1ed883fdfc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Basics\conditional_operators.py</StartupFile>
+    <StartupFile>Basics\functions.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Basics\conditional_operators.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Basics\functions.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Basics\operators_expressions.py">
